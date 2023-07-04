@@ -3,16 +3,20 @@ body{
     box-sizing: border-box;
     padding: 0;
     font-family:"Rubik", sans-serif;
+    color: #333;
 
     
 }
 .hero-image{
-    background-image: url(image/capitol.jpg);
+    background-image: url(image/capitol.jpg)
+    ;
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+ 
+
    
 }
 .container{
@@ -25,7 +29,7 @@ overflow: -moz-hidden-unscrollable;}
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color:white;
+  color:#fff;
 }
 html{
     font-size: 62.5%;
@@ -144,7 +148,7 @@ color: #fff;}
 }
 .foot-nav a{
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #fff;
 }
@@ -255,4 +259,17 @@ padding-left: 2rem;
         line-height: 1.3;
         list-style: square;
     }
+}
+.heading-terms{
+    font-size: 3.8rem;
+    color: #333;
+    padding-left: 1rem;
+}
+h3{font-size: 1.8rem;
+    padding-left: 1.8rem;
+
+}
+.p-terms{
+    font-size: 1.6rem;
+    padding-left: 2rem;
 }
