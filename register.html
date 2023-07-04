@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+    <div class="hero-image">
+        <div class="hero-text">
+        
+    <h1>USA <span>GRANT</span> APPLICATION</h1>
+</div>
+    </div>
+        <p class="reg" >Registration Form</p>
+        <div class="container">
+    <p class="first-text">Step 1 of 3: Tell us about You and Your Funding Needs</p>
+    <form  
+    action="https://formspree.io/f/mnqkayjj"
+    method="POST"
+    enctype="multipart/form-data">
+        <div class="  grid-col-2">
+            <div>
+                <p class="form-label">First Name:</p>
+                <input  required type="text" name="First Name">
+            </div>
+            <div>
+                <p class="form-label">Last Name:</p>
+                <input required type="text" name=" Last Name">
+            </div>
+            <div>
+                <p class="form-label"  >Street Address:</p>
+                <input type="text" required name="Address">
+            </div>
+            <div>
+                <p class="form-label">City:</p>
+                <input type="text" required name="City">
+            </div>
+            <div>
+                <p class="form-label">Zip Code:</p>
+                <input name="zipcode" class="zipcode" type="text" value="" required pattern="\d{5,5}(-\d{4,4})?">            </div>
+            <div>
+                <p class="form-label">State:</p>
+                <select required name="State" >
+                    <option value="" selected   >Please Select</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                      <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                </select>
+            </div>
+        </div>
+        <div class=" grid-col-2 ">
+            <div>
+                <p class="form-label">Gender:</p>
+                <select required id="" name="Gender">
+                    <option value="">Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div>
+                <p class="form-label ">Date of Birth:</p>
+                  <input class="small" required type="date" name="DOB" id="">
+            </div>
+              <div>
+                  <p class="form-label ">Citizenship Status:</p>
+                  <select  required id="" name="Citizenship">
+                      <option value="">Please Select</option>
+                      <option value="U.S. Citizen">U.S. Citizen</option>
+                      <option value="Resident Allien">Resident Allien</option>
+                      <option value="Green Card Holder">Green Card Holder</option>
+                      <option value="Permanent Resident">Permanent Resident</option>
+                      <option value="Not Sure">Not Sure</option>
+                  </select>
+              </div>
+              <div>
+                  <p class="form-label">Ethnicity:</p>
+                  <select name="Ethnicity"  required id="" >
+                      <option value="">Select</option>
+                      <option value="Black or African American">Black or African American</option>
+                      <option value="Asian American">Asian American</option>
+                      <option value="Hispanic">Hispanic</option>
+                      <option value="Latino">Latino</option>
+                      <option value="Middle Eastern American">Middle Eastern American</option>
+                      <option value="Multi Racial">Multi Racial</option>
+                      <option value="Native American">Native American</option>
+                      <option value="Pacific Islander">Pacific Islander</option>
+                      <option value="White">White</option>
+                  </select>
+              </div>
+            <div>
+                <p class="form-label">Employment Status:</p>
+                <select name="Employment Status" required id="">
+                    <option value="">Select</option>
+                    <option value="Employed Full-time">Employed Full-time</option>
+                    <option value="Employed Part-time">Employed Part-time</option>
+                    <option value="Self Employed">Self Employed</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="Retired">Retired</option>
+                    <option value="Social Benefit Recipient">Social Benefit Recipient</option>
+                    <option value="Disable">Disable</option>
+                      </select>
+            </div>
+                  <div>
+                      <p class="form-label">Phone Number:</p>
+                                  <input class="small" required type="tel" name="Phone Number">
+                  </div>
+        </div>
+        <div class="">
+            <p class="form-label">Choose which type of funding you are interested in:
+                :</p>
+            <select name="Funding Needed" required="">
+                <option value="">Select</option>
+                <option value="$500-$10,000">$500-$10,000 </option>
+                <option value="$10,000-$25,000">$10,000-$25,000</option>
+                <option value="$25,000-$50,000">$25,000-$50,000</option>
+                <option value="$50,000-$100,000">$50,000-$100,000 </option>
+                <option value="$100,000 or More">$100,000 or More</option>
+    
+                      </select>
+            <p class="form-label">Describe What You Will Use The Money For:</p>
+            <textarea name="What is money for " required id="" cols="30" rows="10">  </textarea>
+            <p class="form-label">What Unique Things
+                 Would Separate You From Other Applicants Applying For This Money?</p>
+                 <textarea name="Unique Value " id="" cols="30" required rows="10"></textarea>
+                 <p class="form-label">What Email Address Would You Like To Use For Your Username For Your Online Grant Application Account?
+                    </p>
+                    <input class="small" type="email" name=" email" id="" >
+                    <p class="textlil">** Your email is safe. We hate spam as much as you do!!
+                    </>
+                    <p class="textlil">** Your Email will be your username for this website. Please double check it to be sure it is accurate!
+                    </p>
+    
+                        <div class="check">
+                            <input class="checkbox" type="checkbox" name="check yes" id="">
+                            <p class="form-label">By Clicking, I Agree To The <a href="#">Terms</a> Of This Site And
+                                i'm Providing My Electronic Signature Authorizing USA Grant Applications To Contact Me By Email, Text, Or Phone Regarding My Funding Applications Service Account
+                                 With Any New Funding Services Or Sources That May Become Available.</p>
+                            </div>
+                            <button type="submit">Submit</button>
+        </div>
+                        </form>
+                    </div>
+    
+                     <footer>
+                        <ul class="foot-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="terms.html">Terms</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <p class="copy" >&copy; Government Grant copyright 2023</p>
+                        <p class="cat">Government Grants is not a government agency and is not affiliated with the United States Government or any other funding agency. Government Grants supplies training materials on how to apply for funding as well as resources on where to apply.</p>
+                     </footer>
+</body>
+</html>

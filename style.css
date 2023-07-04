@@ -1,0 +1,258 @@
+body{
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:"Rubik", sans-serif;
+
+    
+}
+.hero-image{
+    background-image: url(image/capitol.jpg);
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+.container{
+padding: 0 0 0 2rem;
+overflow: -moz-hidden-unscrollable;}
+
+.hero-text{
+    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+html{
+    font-size: 62.5%;
+}
+.hero-text h1{
+    font-size: 3.2rem;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+@media screen and (min-width:390px){
+  
+    .hero-text h1{
+        font-size: 5.2rem;
+
+    }
+    .container{
+        padding: 0 0 0 2rem;
+    }
+    .reg{
+        font-size: 6rem;
+        text-align: center;
+    }
+    .form-label{
+        font-size: 2.8rem;
+        margin-bottom: 0.6rem;
+        line-height: 1.2;
+    }
+    .first-text{font-size: 3.8rem;
+    line-height: 1.2;
+    letter-spacing: 0.2px;}
+    select{
+        padding: 2rem 4rem;
+        width: fit-content;
+        font-size: 4rem;
+        border-radius: 5px;
+        outline: none;
+    }
+    }
+
+@media screen and (min-width:600px){
+.grid-col-2{display: grid;
+    grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr;}
+}
+
+@media screen and (min-width:900px){
+    .grid-col-2{display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;}
+   }
+
+span{
+    color: rgb(150, 0, 0);
+    font-weight: 600;
+    display: inline;
+}
+
+
+.reg{
+    font-size: 4rem;
+    text-align: center;
+}
+.form-label{
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+    line-height: 1.2;
+}
+.first-text{font-size: 2.8rem;
+line-height: 1.2;
+letter-spacing: 0.2px;}
+
+
+
+input{
+    padding: 1rem 2rem;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    font-size: 2rem;
+    
+}
+.small{
+    width: fit-content;
+}
+select{
+    padding: 1rem 2rem;
+    width: fit-content;
+    font-size: 2rem;
+    border-radius: 5px;
+    outline: none;
+}
+textarea{width: 90%;
+
+}
+
+.foot-nav{display: flex;
+    flex-direction: row;
+    gap: .8rem;
+    justify-content: space-between ;
+    align-content: center;
+    margin-left: -2.5rem;
+    margin-right: 1rem;
+
+}
+
+footer{background-color: rgb(136, 93, 93);
+color: #fff;}
+
+.foot-nav li{
+    list-style: none;
+    font-size: 1.8rem;
+    margin-left: 0;
+}
+.foot-nav a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+.textlil{font-size: 1.4rem;
+font-style: italic;}
+.check{
+  display:flex;
+}
+.checkbox{
+    flex:content;
+    margin-right: 1.5rem;
+    align-self: flex-start;
+    margin-top: 2.0rem;
+}
+
+
+  button{
+    display: block;
+    padding: 1rem 2rem;
+    width: 200px;
+    margin-top: 2rem;
+    background-color: rgb(150, 0, 0);
+    outline: none;
+    color: white;
+    font-size: 2rem;
+    margin: 2rem auto 2rem auto;
+  }
+  button:hover{background-color:  rgb(218, 79, 79);
+     }
+     button:active{
+        background-color:rgb(46, 2, 2);
+        ;
+     }
+
+  .copy{
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .cat{
+    font-size: 1.2rem;
+    opacity: .7;
+    text-align: left;
+  }
+
+
+  .article-text{font-size: 1.7rem;
+    line-height: 1.2;
+    word-spacing: 1px;
+color: #333;
+padding-left: 3rem;}
+
+h2{font-size: 3rem;
+padding: 2rem 0 0 4rem;
+margin-top: 6rem;}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 2rem;
+}
+
+.div{padding: 2rem;
+box-shadow: 0 5px 10px 0  rgba(15, 14, 14, 0.25);
+}
+.div img{width: 100%;
+
+}
+.div h3{font-size: 2rem;
+font-weight: 500;
+color: brown;
+padding-left: 2rem;
+}
+.list li{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    list-style: square;
+}
+
+.cards button {
+    margin-left: 2rem;
+}
+
+.cards button a{
+    color: white;
+    text-decoration: none;
+    text-transform:capitalize ;
+}
+.fee{font-size: 1.5rem;
+    margin-bottom: 4rem;
+    padding-left: 1rem;
+}
+.color{background-color: azure;}
+@media screen and (max-width:590px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .article-text{font-size: 2.2rem;
+        line-height: 1.1;
+        word-spacing: 1px;
+    color: #333;
+    padding-left: 0.5rem;}
+    .list li{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        line-height: 1.3;
+        list-style: square;
+    }
+}
